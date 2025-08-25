@@ -1,0 +1,6 @@
+streamlit
+plotly
+google-generativeai
+requests
+pandas>=2.2.0
+fpdf
