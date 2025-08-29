@@ -26,7 +26,7 @@ ESP32_IP = "172.20.10.2"  # Replace with your ESP32 IP
 ESP32_URL = f"http://{ESP32_IP}/data"
 
 # Gemini API key (replace with your actual key or use environment variable)
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyD6Mvxuz2quV2r7MdHrT15B9DlAIA0INbE")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "---")
 configure(api_key=GEMINI_API_KEY)
 
 # Authentication credentials
